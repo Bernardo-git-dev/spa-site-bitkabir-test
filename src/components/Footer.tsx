@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const SocialIcon = ({
   href,
@@ -92,8 +92,8 @@ export default function Footer() {
         </svg>
       ),
       label: "Telefone",
-      value: "+244 923 456 789",
-      href: "tel:+244923456789",
+      value: "+244 943-524-345",
+      href: "tel:+244943524345",
     },
     {
       icon: (
@@ -165,9 +165,12 @@ export default function Footer() {
   return (
     <footer className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden">
       {/* Background Effects */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-900/10 via-transparent to-transparent"></div>
-      <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-amber-500/5 to-transparent rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-tl from-orange-500/5 to-transparent rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-900/10 via-transparent to-transparent">
+      </div>
+      <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-amber-500/5 to-transparent rounded-full blur-3xl">
+      </div>
+      <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-tl from-orange-500/5 to-transparent rounded-full blur-3xl">
+      </div>
 
       {/* Main Footer Content */}
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
@@ -366,7 +369,8 @@ export default function Footer() {
       </div>
 
       {/* Decorative Elements */}
-      <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400">
+      </div>
     </footer>
   );
 }
