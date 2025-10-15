@@ -25,8 +25,8 @@ O objetivo é apresentar a marca **Bitkabir** com uma experiência visual fluida
 |-------------|---------|
 | ⚡ **Next.js** | Framework React com suporte a SSR e SSG |
 | 💅 **TailwindCSS** | Estilização moderna, utilitária e responsiva |
-| 🧩 **TypeScript (opcional)** | Tipagem e segurança no código |
-| 🎬 **Framer Motion** *(opcional)* | Animações suaves e interativas |
+| 🧩 **TypeScript** | Tipagem e segurança no código |
+| 🎬 **Framer Motion** | Animações suaves e interativas |
 | 🌐 **Vercel** | Hospedagem e deploy contínuo |
 
 ---
